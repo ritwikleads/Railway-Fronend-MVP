@@ -270,7 +270,7 @@ export default function SolarCalculatorForm() {
 
       console.log('Submitting data:', JSON.stringify(submissionData, null, 2))
 
-      const response = await fetch("https://railway-backend-mvp-production.up.railway.app/", {
+      const response = await fetch("https://railway-backend-mvp-production-b0c5.up.railway.app/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
